@@ -38,6 +38,7 @@ h6 {
 }
 
 html {
+    scroll-behavior: smooth;
     /* height: 100%; */
     /* width: 100vw; */
     background: no-repeat center / cover url(../images/menu/bg.png);
