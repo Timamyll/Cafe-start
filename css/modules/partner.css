@@ -1,0 +1,39 @@
+.partner__body {
+    padding-top: 233px;
+    text-align: center;
+}
+
+.page__partner {}
+
+.container {}
+
+.partner__title {
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 27px;
+    /* identical to box height */
+    color: #907C64;
+    padding-bottom: 36px;
+}
+
+.partner__title-title {}
+
+.partner__imgs {
+    display: flex;
+    gap: 88px;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+@media (max-width: 657px) {
+    .partner__body {
+        padding-top: 50px;
+    }
+    .partner__title {
+        font-size: 18px;
+    }
+    .partner__imgs {
+        gap: 26px;
+    }
+}

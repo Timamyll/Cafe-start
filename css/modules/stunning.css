@@ -1,0 +1,77 @@
+.stunning__page {}
+
+.container {}
+
+.stunning__box {
+    display: flex;
+    padding-top: 276px;
+    align-items: center;
+    justify-content: center;
+    gap: 189px;
+    padding-right: 200px;
+}
+
+.stunning__pictures {}
+
+.stunning__imgssss {}
+
+.stunning__body {
+    gap: 15px;
+}
+
+.stunning__title {
+    font-weight: 900;
+    font-size: 34px;
+    line-height: 46px;
+    /* or 135% */
+    text-align: center;
+    color: #333333;
+    max-width: 299px;
+    margin-bottom: 53px;
+}
+
+.stunning__texts {
+    display: flex;
+    gap: 14px;
+}
+
+.stunning__imgs {}
+
+.stunning__text {
+    font-weight: 400;
+    font-size: 19px;
+    line-height: 46px;
+    /* identical to box height, or 242% */
+    color: #333333;
+}
+
+@media (max-width: 1000px) {
+    .stunning__box {
+        flex-direction: column;
+        gap: 0;
+        padding-top: 21px;
+    }
+}
+
+@media (max-width: 1161px) {
+    .stunning__box {
+        gap: 0;
+    }
+}
+
+@media (max-width: 800px) {
+    .stunning__imgssss {
+        display: none;
+    }
+    .stunning__box {
+        padding-top: 152px;
+        padding-right: 0;
+    }
+}
+
+@media (max-width: 512px) {
+    .stunning__box {
+        padding-top: 50px;
+        padding-right: 0;
+    }
+}

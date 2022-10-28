@@ -1,0 +1,97 @@
+@import url(./modules/menu.css);
+@import url(./modules/smart.css);
+@import url(./modules/partner.css);
+@import url(./modules/transparent.css);
+@import url(./modules/stunning.css);
+@import url(./modules/guests.css);
+@import url(./modules/buy.css);
+@import url(./modules/allow.css);
+@import url(./modules/footer.css);
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul,
+ol,
+li {
+    list-style: none;
+}
+
+img {
+    vertical-align: top;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-weight: inherit;
+    font-size: inherit;
+}
+
+html {
+    /* height: 100%; */
+    /* width: 100vw; */
+    background: no-repeat center / cover url(../images/menu/bg.png);
+}
+
+.container {
+    max-width: 1190px;
+    padding: 0 15px;
+    margin: 0 auto;
+    box-sizing: border-box;
+}
+
+.page__title {
+    padding-top: 200px;
+}
+
+.container {}
+
+.title__body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.title_titless {
+    font-weight: 900;
+    font-size: 54px;
+    line-height: 46px;
+    /* identical to box height, or 85% */
+    text-align: center;
+    color: #333333;
+}
+
+.title__paragrav {
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 37px;
+    /* or 168% */
+    text-align: center;
+    color: #907C64;
+    padding-top: 53px;
+    max-width: 573px;
+}
+
+@media (max-width: 434px) {
+    .title_titless {
+        font-size: 44px;
+    }
+    .title__paragrav {
+        font-size: 16px;
+    }
+    .page__title {
+        padding-top: 60px;
+    }
+}

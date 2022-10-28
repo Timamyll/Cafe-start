@@ -1,0 +1,129 @@
+.page__smart {}
+
+.container {}
+
+.smart__body {
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+    /* padding-left: 193px; */
+    padding-top: 173px;
+    gap: 59px;
+}
+
+.smart__mob {}
+
+.smart__mobile {
+    padding-top: 31px;
+}
+
+.smart__box {}
+
+.smart__title {
+    font-weight: 700;
+    font-size: 78px;
+    line-height: 70px;
+    /* or 90% */
+    text-align: center;
+    background: linear-gradient(95.6deg, #FA8F21 -22.47%, #FEC458 85.96%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-fill-color: transparent;
+}
+
+.smart__text {
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 27px;
+    text-align: center;
+    color: #333333;
+    max-width: 319px;
+    margin-top: 53px;
+}
+
+.smart__buttom {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 29px;
+    /* identical to box height */
+    text-align: center;
+    color: #FFFFFF;
+    padding: 12px 18px 12px 18px;
+    background: #FCA83B;
+    cursor: pointer;
+    border-radius: 10px;
+    border: 1px solid #FCA83B;
+    transition: all 0.5s ease-in-out;
+}
+
+.smart__buttom:hover {
+    background: #fff;
+    color: black;
+}
+
+.smart__buttoms {
+    display: flex;
+    justify-content: center;
+    margin-top: 53px;
+}
+
+.smart__img {
+    position: relative;
+}
+
+.smart__imgs {
+    max-width: 215px;
+    padding-top: 63px;
+}
+
+.smart__imgs2 {
+    position: absolute;
+    max-width: 223px;
+    top: 169px;
+    bottom: 0;
+    left: 56px;
+}
+
+@media (max-width: 998px) {
+    .smart__img {
+        display: none;
+    }
+}
+
+@media (max-width: 687px) {
+    .smart__title {
+        font-size: 50px;
+        line-height: 50px;
+    }
+    .smart__body {
+        padding-top: 50px;
+        gap: 0;
+    }
+    .smart__mobile {
+        padding-top: 0;
+    }
+    .smart__text {
+        margin-top: 40px;
+        font-size: 19px;
+    }
+    .smart__buttoms {
+        margin-top: 30px;
+    }
+    .smart__buttom {
+        font-size: 18px;
+    }
+}
+
+@media (max-width: 455px) {
+    .smart__body {
+        flex-direction: column;
+    }
+    .smart__mobile {
+        display: flex;
+        margin: 0 auto;
+    }
+    .smart__text {
+        margin: 0 auto;
+    }
+}
